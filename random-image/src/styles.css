@@ -1,0 +1,11 @@
+body {
+  background-color: cyan;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.image {
+  margin: 10px;
+  display: inline-block;
+}

@@ -1,0 +1,90 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.home-section-1,
+.home-section-3,
+.home-section-5,
+.home-section-2,
+.home-section-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.home-text-1,
+.home-text-5,
+.home-text-2 {
+  width: 100%;
+  max-width: 700px;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: left;
+  margin-left: 80px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.home-image-1,
+.home-image-3,
+.home-image-5,
+.home-image-2,
+.home-image-4 {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .image-container,
+  .home-text-1,
+  .home-text-2,
+  .home-text-5 {
+    width: 50%;
+  }
+
+  .home-image-1,
+  .home-image-2,
+  .home-image-3,
+  .home-image-4,
+  .home-image-5 {
+    width: 50%;
+  }
+}
+
+.home-header-1 {
+  position: absolute;
+  right: 30%; /* Sayfanın sağ kenarına göre ayarlayabilirsiniz */
+  transform: translateY(-50%);
+  width: 30%; /* Sayfanın genişliğine göre ayarlayabilirsiniz */
+  max-width: 450px; /* Maksimum genişliği belirleyebilirsiniz */
+  height: 100px;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #fff;
+  margin-top: 65px;
+}
+.home-header-2 {
+  position: absolute;
+  right: 50%; /* Sayfanın sağ kenarına göre ayarlayabilirsiniz */
+  transform: translateY(-50%);
+  width: 30%; /* Sayfanın genişliğine göre ayarlayabilirsiniz */
+  max-width: 450px; /* Maksimum genişliği belirleyebilirsiniz */
+  height: 100px;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #fff;
+  margin-top: 65px;
+}

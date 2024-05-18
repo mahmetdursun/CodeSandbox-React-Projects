@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: #ffad33;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.cbutton {
+  background-color: #fbdada;
+  margin-top: 20px;
+  border: 1px solid;
+  color: #e93636;
+  font-size: 15px;
+  border-radius: 20px;
+}
+
+.gbutton {
+  background-color: #fbdada;
+  margin-top: 20px;
+  border: 1px solid;
+  color: #e93636;
+  font-size: 15px;
+  border-radius: 20px;
+}

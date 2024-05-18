@@ -1,0 +1,10 @@
+body {
+  padding: 20px;
+  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco,
+    "Bitstream Vera Sans Mono", monospace;
+}
+
+.title {
+  background: teal;
+  color: white;
+}

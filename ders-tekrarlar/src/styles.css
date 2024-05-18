@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.foodOrder {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: flex;
+  gap: 2rem;
+}
+
+.food h4 {
+  color: #617d98;
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+  letter-spacing: 2px;
+}
+.food img {
+  width: 100%;
+  object-fit: cover;
+}
+.food h2 {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .foodOrder {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+  }
+}
+.food p {
+  margin: 1rem 0 0.5rem;
+}

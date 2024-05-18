@@ -1,0 +1,8 @@
+body {
+  padding: 32px;
+  font-size: 1.125rem;
+  text-align: center;
+}
+a {
+  color: hsl(250deg 100% 50%);
+}
